@@ -2,7 +2,7 @@
 layout: post
 title: "¿Qué son las ciencias de la computación?"
 date: 2017-10-02 15:10:00
-cover: /assets/img/computer-science.jpg
+cover: /posts/img/posts-cover/2017-10-01-ciencias-de-la-computacion.jpg
 legend: "'Map of Computer Science' by Dominic Walliman"
 categories: divulgación
 description: La importancia de las ciencias de la computación, su influencia en el mundo moderno y todas sus áreas de estudio
