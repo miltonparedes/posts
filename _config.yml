@@ -1,0 +1,65 @@
+# Website info
+title: Posts
+email: hey@miltonolaf.com
+description: > # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: https://miltonolaf.com/posts # the base hostname & protocol for your site, e.g. http://example.com
+lang: es_MX
+# Social users - twitter, instagram, github, gitlab, codepen profile, youtube and facebook
+social:
+  twitter: olafmilton
+  github: miltonolaf
+  feed: /feed.xml
+
+disqus: miltonolaf
+analytics_id: UA-115008234-2
+
+author:
+  name: Milton Olaf Paredes
+  twitter: olafmilton
+
+favicon: favicon.png # favicon name in assets/img/
+
+# Build settings
+remote_theme: miltonolaf/another
+theme: another-theme
+
+paginate: 5
+paginate_path: "/page/:num/"
+
+markdown: kramdown
+kramdown:
+  auto_ids: true
+
+permalink: pretty
+
+algolia:
+  application_id: 3CXOFC7X8Y
+  index_name: blog
+  search_only_api_key: a53c7f9c8141b850e2cce55dad73eb3b
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
+      page_title: true
+      content_width: "default"
+      post_content: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - .git*
+  - .gitignore
+  - vendor
+  - _notes/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
