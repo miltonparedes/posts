@@ -9,7 +9,7 @@ priority: 0
       <a class="post-link row {% unless post.cover %}py-3{% endunless %}" href="{{ site.url }}{{ post.url }}">
         <div class="col-12 col-sm-4 col-md-3 col-xl-2">
           {%- if post.cover -%}
-            <img class="w-100 mb-0.5 mb-sm-0" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
+            <img class="w-100 mb-0.5 mb-sm-0" src="{{ post.cover }}" alt="{{ post.title }}">
           {%- endif -%}
         </div>
         <div class="col-12 col-sm-8 col-md-9 col-xl-10 pl-md-0">
