@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Notes
+title: Posts
 priority: 0
-post_content: false
 ---
-<ul class="posts-feed my-3" id="hits">
+<ul class="posts-feed my-3 unstyle-list" id="hits">
   {% for post in paginator.posts %}
     <li class="post-node">
-      <a class="post-link row {% unless post.cover %}py-3{% endunless %}" href="{{site.url}}{{ post.url | relative_url }}">
+      <a class="post-link row {% unless post.cover %}py-3{% endunless %}" href="{{ site.url }}{{ post.url }}">
         <div class="col-12 col-sm-4 col-md-3 col-xl-2">
           {%- if post.cover -%}
             <img class="w-100 mb-0.5 mb-sm-0" src="{{ site.url }}{{ post.cover }}" alt="{{ post.title }}">
