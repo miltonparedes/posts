@@ -24,13 +24,14 @@ Los sistemas informáticos son omnipresentes, desde el sistema integrado que con
 
 Más allá de nuestra vida cotidiana, la informática ha tenido un impacto igualmente grande en otras áreas de la ciencia, la mayoría de las cuales ahora requieren el procesamiento y análisis de inmensos conjuntos de datos. Desde el manejo de datos en el gran colisionador de hadrones hasta el proyecto del genoma humano, estos esfuerzos científicos simplemente no serían posibles sin las ciencias de la computación.
 
-
 Las ciencias de la computación abarcan una serie de temas, desde los estudios teóricos de algoritmos y los límites de la computación hasta las cuestiones prácticas como la creación de nuevo software y hardware. Por lo tanto vale la pena conocer las distintas áreas de estudio de las ciencias de la computación.
 
 ## Ciencias de la computación teóricas
+
 Las ciencias de la computación teóricas, en las cuales me introduciré un poco más al carecer de gran popularidad. Son matemáticas y abstractas en espíritu, pero derivan su motivación de la computación práctica y cotidiana. Su objetivo es comprender la naturaleza de la computación y como consecuencia de esta comprensión, proporcionar metodologías más eficientes.
 
 ### Teoría de la computación
+
 La teoría de la computación es el estudio de la computación eficiente, modelos de procesos computacionales y sus límites. Las áreas en las que se divide están vinculadas por la pregunta: "¿Cuáles son las capacidades y limitaciones fundamentales de las computadoras?".
 
 * Teoría de autómatas
@@ -40,15 +41,19 @@ La teoría de la computación es el estudio de la computación eficiente, modelo
 * Teoría de la computación cuántica
 
 ### Teoría de códigos y teoría de la información
+
 La teoría de la información está relacionada con la cuantificación de la información, mientras que la teoría de códigos es el estudio de las propiedades de los códigos (sistemas para convertir la información de una forma a otra) y su aptitud para una aplicación específica. Los códigos se utilizan para la compresión de datos, criptografía, detección y corrección de errores y, más recientemente, también para la codificación de redes.
 
 ### Teoría de los lenguajes de programación
+
 Rama de la informática que se ocupa del diseño, la implementación, el análisis, la caracterización y la clasificación de los lenguajes de programación y sus características individuales. Cae dentro de la disciplina de la informática, que depende y afecta a las matemáticas, la ingeniería de software y la lingüística.
+
 * Teoría de tipos
 * Diseño del compilador
 * Lenguajes de programación
 
 ### Algoritmos y estructuras de datos
+
 Algoritmos y estructuras de datos es el estudio de métodos computacionales de uso común y su eficiencia computacional.
 
 * Análisis de algoritmos
@@ -58,9 +63,11 @@ Algoritmos y estructuras de datos es el estudio de métodos computacionales de u
 * Geometría computacional
 
 ### Métodos formales
+
 Es un camino a la construcción y análisis de modelos matemáticos que permitan una automatización del desarrollo de sistemas informáticos.
 
 ## Ciencias de la computación aplicadas
+
 Las ciencias de la computación aplicadas se refieren a ciertos conceptos de informática que pueden ser utilizados directamente en la resolución de problemas del mundo real. Muchas de estas áreas pueden parecerles conocidas, puesto que son mucho más difundidas que las teóricas, sin embargo están estrechamente relacionadas entre sí.
 
 * Inteligencia Artificial
